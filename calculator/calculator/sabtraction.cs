@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace calculator
 {
-    class sabtraction
+    public class sabtraction : ICalculateTwoArguments
     {
+        public double Calculate(double firstArgument, double secondArgument)
+        {
+            return firstArgument - secondArgument;
+        }
     }
 }

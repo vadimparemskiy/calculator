@@ -34,7 +34,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.division = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // sum
@@ -45,7 +45,7 @@
             this.sum.TabIndex = 0;
             this.sum.Text = "Сложение";
             this.sum.UseVisualStyleBackColor = true;
-            this.sum.Click += new System.EventHandler(this.button1_Click);
+            this.sum.Click += new System.EventHandler(this.Click);
             // 
             // subtraction
             // 
@@ -55,7 +55,7 @@
             this.subtraction.TabIndex = 1;
             this.subtraction.Text = "Вычитание";
             this.subtraction.UseVisualStyleBackColor = true;
-            this.subtraction.Click += new System.EventHandler(this.button2_Click_1);
+            this.subtraction.Click += new System.EventHandler(this.Click);
             // 
             // multiplication
             // 
@@ -65,7 +65,7 @@
             this.multiplication.TabIndex = 2;
             this.multiplication.Text = "Умножение";
             this.multiplication.UseVisualStyleBackColor = true;
-            this.multiplication.Click += new System.EventHandler(this.button3_Click_1);
+            this.multiplication.Click += new System.EventHandler(this.Click);
             // 
             // textBox1
             // 
@@ -88,22 +88,22 @@
             this.textBox3.Size = new System.Drawing.Size(67, 20);
             this.textBox3.TabIndex = 5;
             // 
-            // button4
+            // division
             // 
-            this.button4.Location = new System.Drawing.Point(139, 123);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "division";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            this.division.Location = new System.Drawing.Point(139, 123);
+            this.division.Name = "division";
+            this.division.Size = new System.Drawing.Size(75, 23);
+            this.division.TabIndex = 6;
+            this.division.Text = "Деление";
+            this.division.UseVisualStyleBackColor = true;
+            this.division.Click += new System.EventHandler(this.Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(374, 225);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.division);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -125,7 +125,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button division;
     }
 }
 

@@ -8,5 +8,6 @@ namespace calculator
 {
     interface ICalculateTwoArguments
     {
+        double Calculate(double firstArgument, double secondArgument);
     }
 }
